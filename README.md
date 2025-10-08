@@ -1,50 +1,38 @@
-# React + TypeScript + Vite
+# 🌤️ AI Weather & Mood Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An elegant, AI-powered weather dashboard that not only shows live weather updates but also suggests moods or activities based on the weather — bringing **a touch of personality** to your forecast.  
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [ai-weather-mood-dashboard-new.vercel.app](https://ai-weather-mood-dashboard-new.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 🔍 Search any city and instantly view its current weather  
+- 🌡️ Displays temperature, humidity, wind speed, and conditions  
+- 🤖 AI-generated **mood suggestions** based on real-time weather  
+- 📱 Fully responsive for **mobile, tablet, and desktop**  
+- 🎨 Smooth gradient animations & clean modern UI  
+- ☁️ Powered by weather APIs and AI integration  
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🧰 Tech Stack
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+| Category | Technology |
+|-----------|-------------|
+| Frontend | HTML5, CSS3, JavaScript (Vanilla JS) |
+| Styling | Custom CSS (Animations, Gradients, Responsive) |
+| APIs | OpenWeather API (for weather data) |
+| AI | OpenAI API (or other text-generation API) |
+| Hosting | Vercel |
+| Fonts | Google Fonts – *Poppins* |
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🛠️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<your-username>/ai-weather-mood-dashboard.git
+   cd ai-weather-mood-dashboard
