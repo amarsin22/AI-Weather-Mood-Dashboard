@@ -21,7 +21,7 @@ An elegant, AI-powered weather dashboard that not only shows live weather update
 
 | Category | Technology |
 |-----------|-------------|
-| Frontend | HTML5, CSS3, JavaScript (Vanilla JS) |
+| Frontend | React, Typescript|
 | Styling | Custom CSS (Animations, Gradients, Responsive) |
 | APIs | OpenWeather API (for weather data) |
 | AI | OpenAI API (or other text-generation API) |
